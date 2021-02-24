@@ -1,0 +1,231 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../fonts/NanumGothic.eot');
+    src: url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NanumGothic.woff2') format('woff2'),
+        url('../fonts/NanumGothic.woff') format('woff'),
+        url('../fonts/NanumGothic.ttf') format('truetype'),
+        url('../fonts/NanumGothic.svg#NanumGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body{ margin: 0; padding: 0;}
+header, section, footer, aside, nav, article, main{ display: block;}
+header::after, section::after, footer::after, aside::after, nav::after, article::after, main::after{ content:""; clear: both; display: block;}
+h1, h2, h3, h4, h5, h6, p{ margin: 0;}
+ol, ul{list-style: none; margin: 0; padding: 0;}
+a{text-decoration: none;}
+.clear{clear: both;}
+
+/* header css */
+
+/* 안쓰면 100% */
+
+/* header{}
+header .top{
+    height: 40px; background-color: #363636;
+}
+header .top .wrap{
+    width: 1200px; height: 100%;
+    margin: 0 auto; padding: 0 10px; 
+}
+header .top .wrap .info{
+    float: left;
+}
+header .top .wrap .info p{
+    color: #ccc; font-size: 14px;line-height: 40px;
+}
+header .top .wrap .mylink{
+    float: right;
+    padding: 13px 0;
+}
+header .top .wrap .mylink ul{}
+header .top .wrap .mylink ul li{
+    float: left;
+}
+header .top .wrap .mylink ul li a{
+    display: block;
+    padding: 0 5px;
+    font-size: 14px; line-height: 1; color: #ccc; text-transform: uppercase;
+    border-right: 1px solid #ccc;
+}
+header .top .wrap .mylink ul li:last-child a{
+    border: none;
+}
+header .top .wrap .mylink ul li:hover a{color:#fff;} */
+
+/* main */
+/* header .main {
+    height: 80px; 
+    position: relative ;
+}
+header .main .wrap{
+    width: 1200px; height: 100%; margin: 0 auto; padding: 0 10px;
+}
+header .main .wrap .logo {
+    float: left;
+}
+header .main .wrap .logo a{
+    display: block;
+}
+header .main .wrap .logo a img{
+    display: block; height: 60px;
+}
+header .main .wrap nav{ 
+    float: right;
+}
+header .main .wrap nav ul{
+    
+}
+header .main .wrap nav ul > li{
+    float: left; margin: 0 15px;
+}
+header .main .wrap nav ul > li:last-child{
+    margin-right: 0;
+}
+header .main .wrap nav ul > li > a{
+    display: block; font-size: 18px; line-height: 1; padding: 31px 0 26px;
+    border-bottom: 4px solid transparent; color: #363636; font-weight: bold;
+}                                                 
+header .main .wrap nav ul > li:hover > a{
+    border-bottom: 4px solid #004ea1; color: #004ea1;
+}
+header .main .wrap nav ul > li > ul{
+    position: absolute; width: 100%; left: 0; text-align: center;
+    display: none; text-align: right; 
+    z-index: 1;
+}
+header .main .wrap nav ul > li > ul > li{
+    display: inline-block;
+    margin: 0 20px; 
+}
+header .main .wrap nav ul > li:hover > ul{
+    display: block;
+    background-color: rgba(255,255,255,0.4);
+}
+header .main .wrap nav ul > li > ul > li >a{
+    display: block; line-height: 20px;  font-size: 14px; color: #363636;
+    
+}
+header .main .wrap nav ul > li > ul > li:hover > a{
+    color: #004ea1;
+} */
+/* 이런 방법이 있고 
+html에다가 div 하나씩 더추가해서 
+그 div한테 position:absolute 설정해서 
+가운데로 오게 설정하는 방법도 있음 */
+
+
+/*header part CSS*/
+header{}
+header .top{height: 40px; background-color: #363636;}
+header .top .wrap{width: 1200px; height: 100%; margin: 0 auto; padding: 0 10px;}
+header .top .wrap .info{float: left;}
+header .top .wrap .info p{color:#ccc; font-size: 14px; line-height: 40px;}
+header .top .wrap .mylink{float: right; padding: 13px 0;}
+header .top .wrap .mylink ul{}
+header .top .wrap .mylink ul li{float: left;}
+header .top .wrap .mylink ul li a{display: block; line-height: 1; border-right: 1px solid #ccc;color:#ccc; padding: 0 5px;font-size: 14px; text-transform: uppercase;}
+header .top .wrap .mylink ul li:last-child a{border:none;}
+header .top .wrap .mylink ul li:hover a{color:#fff;}
+
+
+header .main{height: 80px; background-color: #fff; position: relative;}
+header .main .wrap{width: 1200px; height: 100%; margin: 0 auto; padding: 0 10px;}
+header .main .wrap .logo{float: left; padding: 10px 0;}
+header .main .wrap .logo a{display: block;}
+header .main .wrap .logo a img{display: block; height: 60px;}
+
+header .main .wrap nav{float: right;}
+header .main .wrap nav > ul{}
+header .main .wrap nav > ul > li{float: left; margin: 0 15px;}
+header .main .wrap nav > ul > li:last-child{margin-right: 0;}
+
+header .main .wrap nav > ul > li > a{display: block; font-size: 18px; line-height: 1; padding: 31px 0 27px; border-bottom:4px solid transparent; color:#363636; font-weight: bold;} /*(80-18) / 2 = 31*/
+header .main .wrap nav > ul > li:hover > a{border-bottom: 4px solid #004ea1; color:#004ea1;}
+
+header .main .wrap nav > ul > li > div{position: absolute; width: 100%; left:0; background-color: rgba(255, 255, 255, 0.6); text-align: right; display: none; z-index: 2;}
+
+header .main .wrap nav > ul > li:hover > div{display: block;}
+
+header .main .wrap nav > ul > li > div > ul{width: 1200px; margin: 0 auto; padding: 0 10px; font-size: 0;}
+
+header .main .wrap nav > ul > li:nth-child(1) > div > ul{text-align: center;}
+header .main .wrap nav > ul > li:nth-child(2) > div > ul{text-align: center; padding-left: 180px;}
+
+header .main .wrap nav > ul > li > div > ul > li{display: inline-block; margin: 0 20px;}
+header .main .wrap nav > ul > li > div > ul > li > a{display: block; line-height: 40px; font-size: 14px; color:#363636;}
+header .main .wrap nav > ul > li > div > ul > li:hover > a{color:#004ea1;}
+
+
+
+
+/* footer */
+footer{
+    width: 100%; height: 240px;
+    background-color: #474747;
+    text-align: center;
+    font-size: 0;
+}
+footer .wrap{
+    width: 1200px; height: 100%;
+    margin: 0 auto;
+}
+footer .wrap .info_time{
+    text-align: center;
+    margin: 20px 10px 0;
+}
+footer .wrap .info_time ul{
+   padding: 10px 0;
+   position: relative;
+   padding-bottom: 10px;
+}
+footer .wrap .info_time ul::after{ content: ""; display: block; position: absolute; width: 100%; height: 2px; background-color: #fff; bottom: 0; left: 50%; transform: translateX(-50%); }
+footer .wrap .info_time ul li{
+    font-size: 13px; color: white; display: inline-block;
+}
+
+/* footer .wrap .line{
+    width: 100%;
+    border-bottom: 1px solid white;
+} */
+
+footer .wrap .info_det{
+    margin-top: 10px;
+}
+footer .wrap .info_det ul{}
+footer .wrap .info_det ul li{
+    display: inline-block;
+    border-right: 1px solid white;
+}
+footer .wrap .info_det ul li:last-child{
+    border: none;
+}
+footer .wrap .info_det ul li a{
+     font-size: 13px; color: white;
+     padding: 0 10px;
+     display: block;
+}
+footer .wrap .info_det ul li a:first-child{ margin-left: 0; }
+footer .wrap .info_det ul li a:last-child{ margin-right: 0; }
+footer .wrap p{
+    color: white; font-size: 13px; margin: 10px;
+    padding-bottom: 20px;
+
+}
+
+footer .wrap .logo{ margin: 10px 0;}
+footer .wrap .logo img{
+    width: 180px; height: 70px;
+    line-height: 55px;
+}
+
+footer .wrap > p:nth-child(2){
+    font-size: 14px; color:white; padding-top: 20px;
+}

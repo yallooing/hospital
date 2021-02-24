@@ -1,0 +1,406 @@
+/* #hospital{
+    width: 100%; height: 40px;
+    background-color: #363636;
+    font-size: 0;
+}
+#hospital .wrap{
+    width: 1200px; height: 160px;
+    margin: 0 auto;
+
+}
+#hospital .wrap .header{
+    width: 100%; height: 120px;
+
+}
+#hospital .wrap .header .top{
+    width: 100%; height: 40px;
+}
+#hospital .wrap .header .top p{
+    font-size: 14px;
+    display: block;
+    color: white;
+    line-height: 40px;
+    float: left;
+}
+#hospital .wrap .header .top ul{
+    float: right;
+}
+#hospital .wrap .header .top ul li{
+    display: block;
+    float: left;
+    padding-top: 10px;
+}
+#hospital .wrap .header .top ul li a{
+    display: inline-block;
+    color: #c8c8c8;
+    font-size: 14px; padding: 0 5px;
+    border-right: 1px solid #c8c8c8;
+    line-height: 1;
+    text-transform: uppercase;
+    
+}
+#hospital .wrap .header .top ul li:hover a{
+    color: white;
+}
+
+#hospital .wrap .header .bottom{
+    width: 100%; height: 80px;
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+}
+#hospital .wrap .header .bottom .logo{
+    
+}
+#hospital .wrap .header .bottom .logo a{
+    display: block;
+}
+#hospital .wrap .header .bottom .logo a img{
+    position: absolute; left: 0;
+    display: block;
+    width: 180px; height: 80px;
+}
+
+#hospital .wrap .header .bottom .menu{
+}
+#hospital .wrap .header .bottom .menu > ul{
+}
+#hospital .wrap .header .bottom .menu > ul > li{
+    display: block;
+    float: right;
+    margin: 0 20px;
+}
+#hospital .wrap .header .bottom .menu > ul > li:last-child{
+    margin: 0;
+}
+#hospital .wrap .header .bottom .menu > ul > li >a{
+    display: block;
+    font-size: 18px;
+    line-height: 74px;
+    color: #363636;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+}
+#hospital .wrap .header .bottom .menu > ul > li:hover >a{
+    color: #004ea1; font-weight: bold;
+    border-bottom: 2px #004ea1 solid;
+}
+
+#hospital .wrap .header .bottom .menu > ul > li > ul{
+    position: absolute; left: 0; display: none;
+    
+}
+#hospital .wrap .header .bottom .menu > ul > li:hover > ul{
+   display: block;
+}
+#hospital .wrap .header .bottom .menu > ul > li > ul > li{
+    display: inline-block;
+    margin: 0 20px;
+    padding-top: 10px;
+    
+}
+
+#hospital .wrap .header .bottom .menu > ul > li > ul > li > a{
+    font-size: 16px; 
+    color: #363636;
+}
+#hospital .wrap .header .bottom .menu > ul > li > ul > li:hover > a{
+    color: #004ea1; font-weight: bold;
+} */
+
+
+main{
+    width: 100%; height: 280px;
+   background-image: url(../img/main-02.jpg);
+    background-position: center 85%;
+    font-size: 0;
+}
+main .wrap{
+    width: 1200px; height: 100%;
+    margin: 0 auto;    
+    position: relative;
+    
+}
+main .wrap .title{
+    width: 600px; height: auto;
+    position: absolute; right: 0; bottom: 20px;
+    display: block;
+}
+main .wrap .title h2{
+    display: block;
+    word-break: keep-all;
+    font-size: 48px;
+    color: #363636;
+}
+/* 야이 */
+
+.btns{
+    padding: 20px 0;
+    background-color: #d3dce5;
+}
+.btns .wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.btns .wrap ul{
+    font-size: 0;
+}
+.btns .wrap ul li{
+    display: inline-block; vertical-align: top;
+    width: calc(100% / 12);
+}
+.btns .wrap ul li a{}
+.btns .wrap ul li a img{}
+
+main{height: 280px; background-image: url(../img/main-02.jpg); background-size: cover; background-position: 50% 85%;}
+
+main .wrap{width: 1200px; height: 100%; position: relative; margin: 0 auto;}
+main .wrap h1{position: absolute; top:50%; right:0; width: calc(100% / 12 * 5); font-size: 48px; color:#363636; word-break: keep-all;}
+
+.btns{padding: 20px 0; background-color: #d3dce5;}
+.btns .wrap{width: 1200px; margin: 0 auto;}
+.btns .wrap ul{font-size: 0;}
+.btns .wrap ul li{display: inline-block; vertical-align: top; width: calc(100% / 12); padding: 0 10px;}
+.btns .wrap ul li a{}
+.btns .wrap ul li a img{width: 80px;}
+
+.menu2{
+    width: 100%; height: 620px;
+    background-color: #efedef;
+    
+}
+.menu2 .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+    /* text-align-last: left; 닌 뭐야
+     */
+}
+
+/* 공통 1,2,5,6*/
+.menu2 .wrap .box{
+    height: 280px; width: 280px; padding: 20px;
+    float: left;
+    margin: 10px 10px 10px;
+    position: relative;
+}
+.menu2 .wrap .box:nth-child(2n-1){ background-color: #004ea1;}
+.menu2 .wrap .box:nth-child(2n){ background-color: #03d365;}
+
+.menu2 .wrap .box h2{
+    font-size: 36px; color: white; font-weight: bold;
+    margin-bottom: 20px;
+}
+.menu2 .wrap .box h4{
+    font-size: 18px; color: white;
+    word-break: keep-all;
+    margin-bottom: 5px;
+}
+.menu2 .wrap .box .btn{
+    width: 85%;
+    height: 40px;
+    position: absolute; bottom: 20px;
+    border: 2px solid white;
+}
+.menu2 .wrap .box .btn a{ font-size: 15px; color: white; line-height: 36px; text-align: center; display: block;
+    width: 50%; float: left;
+}
+.menu2 .wrap .box .btn a:nth-child(2){ border-left: 2px solid white;}
+.menu2 .wrap .box .btn a:hover{ background-color: rgba(255,255,255,0.4);}
+
+/* 개별설정  3,4*/
+/* +++++++++++++++++ 
+    widht: calc(50% - 20px);
+    아 50%였어
+
+*/
+.menu2 .wrap .box:nth-child(3){ width: 580px;  height: 280px; 
+    background-image: url(../img/cont-001.jpg); background-size: cover;
+}
+.menu2 .wrap .box:nth-child(3) h2{ color: #363636;}
+.menu2 .wrap .box:nth-child(3) h4{ font-size: 24px; color: #363636; margin:0px;}
+
+.menu2 .wrap .box:nth-child(3) .input{ width: 360px; height: 40px; border: 2px solid #004ea1; position: absolute; bottom: 20px;} 
+.menu2 .wrap .box:nth-child(3) .input input{ width: calc(100% - 80px); height: 36px; outline: none; vertical-align: top;  display: inline-block;
+    padding: 0; border: none; padding:0 10px;
+}
+.menu2 .wrap .box:nth-child(3) .input button{
+    width:80px;
+    background-color: #004ea1 ; color: white;
+    cursor: pointer;
+    vertical-align: top;
+    line-height: 36px;
+    padding: 0; margin: 0; text-align: center;
+    display: inline-block;
+    border: none;
+}
+
+
+.menu2 .wrap .box:nth-child(4){ width: 580px; height: 280px; background-color: white;}
+.menu2 .wrap .box:nth-child(4) h2{ color: #363636; word-break: keep-all;}
+.menu2 .wrap .box:nth-child(4) h4{ color: #363636; font-size: 14px; }
+.menu2 .wrap .box:nth-child(4) img{
+    width: 240px; height: 240px;
+    float: left;
+    margin-right: 20px;
+}
+.menu2 .wrap .box:nth-child(4) .plus{
+    position: absolute; right: 20px; bottom: 20px;
+    width: 160px; height: 40px;
+    border: 2px solid #004ea1;
+    background-color: #e5e5e5;
+    text-align: center;    
+}
+.menu2 .wrap .box:nth-child(4) .plus a{
+    color: #004ea1; font-size: 16px; line-height: 40px; font-weight: bold;
+}
+.menu2 .wrap .box:nth-child(4) .plus:hover{
+    background-color: #d5d5d5;
+}
+
+/*  */
+.search_box{
+    position: absolute; left: 0; bottom: 0;
+    width: 360px; height: 40px; 
+}
+.search_box form{}
+.search_box input{
+    border: 2px solid #004ea1;
+    width: calc(100% - 120px); height: 40px;
+    font-size: 18px; 
+}
+.search_box button{
+    width: 120px; height: 40px; 
+    background-color: #004ea1; color: white;
+    font-size: 18px; border: none;
+    display: inline-block; vertical-align: top;
+    cursor: pointer;
+}
+
+/* 
+    #4번 
+    1. 사진- display:inline-block; vertical-align:top;
+    width: 240px;  height:100%;
+    & bgi
+    2. txt- width: calc(100% -260px); margin-left:20px;
+    height:100%; 
+    position: relative;
+        -  - word-breaking:keep-all;
+         letter-spacing:-1.5px
+    3. a- position:absolute; right:0; bottom:0;
+    widht:160px; height:40px;
+    border: 2px solid #004eal; display:block;
+    line_height:36px; 
+    
+    아 설마 일반 버튼만 설명하시는거 아니죠 아 제발
+    아으억 헤헤 조색기 헤헿
+
+    */
+    .main3{
+        width: 100%; height: 464px;
+        background-image: url(../img/health-care.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .main3 .wrap{
+        width: 1200px; height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .main3 .wrap .ib{
+        position: absolute; top: 50%; right: 0;
+        width: 400px; /* 공간 있어야함 */
+        transform: translateY(-50%); /* Y축 이동 */
+        text-align: center;
+    }
+    .main3 .wrap h2{
+        font-size: 36px; font-weight: bold; color: #363636;
+        word-break:keep-all;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    .main3 .wrap .logo{
+        width: 100%; height: 66px;
+    }
+    .main3 .wrap .logo img{
+        width: 180px; height: 100%;
+        display: inline-block;
+    }
+    /* 이미지한테 패딩 주지 말기 */
+    
+    .main4{
+        /* width: 100%; height: 550px; */
+        
+        font-size: 0;
+    }
+    .main4 .wrap{
+        width: 1200px; height: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+    /* 보통 wrap한테 tac 적용 */
+    .main4 .wrap .txt{}
+    .main4 .wrap .txt h2{
+        font-weight: bold; font-size: 36px; line-height: 60px; color: #363636;
+        margin-bottom: 20px;
+    }
+    /* line-height 잊지말기 */
+    .main4 .wrap .txt p{
+        font-size: 20px; color: #363636; 
+        margin-bottom: 20px;
+    }
+    
+    .main4 .wrap section{
+        width: 1200px; height: auto;
+        margin: 0 10px;
+    }
+    .main4 .wrap section article{ 
+        width: calc(25% - 20px); height: 376px;
+        display: inline-block; vertical-align: top;
+        background-size: cover;
+        background-position: center center;
+        padding: 50px;
+        margin: 0 10px 20px;
+    }
+    /* dib & vat 어케했누!! */
+    /* 상자 크기 값 계산하지 말기 // 누구는 잡고 누구는 안잡고 궁시렁궁시렁*/
+
+    .main4 .wrap section article:nth-child(1){ background-image: url(../img/cont-002.jpg);}
+    .main4 .wrap section article:nth-child(2){ background-image: url(../img/cont-003.jpg);}
+    .main4 .wrap section article:nth-child(3){ background-image: url(../img/cont-004.jpg);}
+    .main4 .wrap section article:nth-child(4){ background-image: url(../img/cont-005.jpg);}
+    
+    .main4 .wrap section article .box{ }
+    .main4 .wrap section article .box h3{ font-size: 22px; color: white; margin-bottom: 18px; line-height: 1;
+    padding-bottom: 22px;
+    position: relative;
+    }
+    .main4 .wrap section article .box h3::after{content: ""; position: absolute; display: block;width: 80px; height: 4px; background-color: #fff; bottom: 0;left: 50%; transform: translateX(-50%);}
+    /* 이런 방법도 있답닏다 */
+
+    /* .main4 .wrap section article .box .line{ width: 80px;  border: white 2px solid; background-color: #fff; margin-bottom: 20px; */
+    /* display: inline-block; }*/
+    
+    /* 얘도 가운데 정렬 하려면 display:inline-block 이나 margin:0 auto */
+    
+    .main4 .wrap section article .box p{ font-size: 18px; color: white; word-break: keep-all; line-height: 1.2;
+    padding: 20px 5px 25px;}
+    
+    /* 4번째 */
+    .main4 .wrap section article .box:nth-child(4) p{ width: 200%; padding: 20px 40px 25px;}
+    .main4 .wrap section article .box .inbox{ padding: 0 30px;}
+    .main4 .wrap section article .box .inbox ul{ 
+        width: 120px;
+        /* margin: 0 auto; */
+    }
+    /* ul에 border 처리하고 li에 하나씩 빼거나, li에 border처리하고 a에 한두개씩 빼거나 */
+    .main4 .wrap section article .box .inbox ul li{ border: 1px solid white;}
+    .main4 .wrap section article .box .inbox ul li a{ font-size: 18px; color: white; line-height: 30px;}
+    .main4 .wrap section article .box .inbox ul li:nth-child(2){ border-top: none; border-bottom: none;}
+    .main4 .wrap section article .box .inbox ul li:nth-child(3){ border-bottom: none;}
+    .main4 .wrap section article .box .inbox ul li:hover{ background-color: rgba(255,255,255,0.4);}
+    
+    
+    
